@@ -985,11 +985,6 @@ def render_cyberforge_login_page():
                         st.error("INVALID CREDENTIALS — ACCESS DENIED")
 
 
-if not is_user_authenticated():
-    render_cyberforge_login_page()
-    st.stop()
-
-
 # ─── Load Model ──────────────────────────────────────────────────────────────
 
 @st.cache_resource

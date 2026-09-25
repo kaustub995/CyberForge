@@ -1,0 +1,58 @@
+{
+  "mode": "binary",
+  "n_samples": 94,
+  "n_train": 75,
+  "n_test": 19,
+  "classes": [
+    "phishing",
+    "safe"
+  ],
+  "best_model": "Multinomial Naive Bayes",
+  "best_macro_f1": 1.0,
+  "cv_f1_mean": 0.9864864864864865,
+  "accuracy": 1.0,
+  "per_class": {
+    "phishing": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 10.0
+    },
+    "safe": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 9.0
+    },
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 19.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 19.0
+    }
+  },
+  "confusion": {
+    "labels": [
+      "phishing",
+      "safe"
+    ],
+    "matrix": [
+      [
+        10,
+        0
+      ],
+      [
+        0,
+        9
+      ]
+    ]
+  },
+  "classifier_type": "MultinomialNB",
+  "generated_at": "2026-09-06 10:49:19"
+}

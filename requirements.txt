@@ -1,0 +1,15 @@
+streamlit==1.44.0
+pandas==2.2.3
+scikit-learn==1.6.1
+nltk==3.9.1
+joblib==1.4.2
+matplotlib==3.10.1
+dnspython>=2.6.1
+python-whois>=0.9.4
+requests>=2.31.0
+networkx>=3.2
+python-dotenv>=1.0.1
+pytest>=8.0
+pyspf>=2.0.14
+dkimpy>=1.1.1
+plotly>=7.0.0
